@@ -1,0 +1,2 @@
+: "${PROJECT_ROOT:?Set PROJECT_ROOT}"
+for c in $(seq 1 22); do f=${PROJECT_ROOT}/work/ref/lift38_keyed/chr$c.keyed38.vcf.gz; bcftools view -H $f | cut -f1 | awk -v c=chr$c '{n++; if($1==c) same++; else other++} END{print c"\t"n"\t"same+0"\t"other+0}'; done > ${PROJECT_ROOT}/work/haplotype_context_20260922_v1/run_20260922T052403Z/inventory/lift38_cross_chrom.tsv; echo done > ${PROJECT_ROOT}/work/haplotype_context_20260922_v1/run_20260922T052403Z/inventory/lift38_cross_chrom.done

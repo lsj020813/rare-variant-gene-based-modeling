@@ -1,0 +1,19 @@
+name: rv-gene-ml
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - pytorch
+  - matplotlib
+  - pyarrow
+  - cyvcf2
+  - pysam
+  - pybigwig
+  - bcftools
+  - plink2
+  - r-base
+  - r-data.table
+# R packages installed separately: SAIGE (SAIGE-GENE+), susieR

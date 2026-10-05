@@ -1,0 +1,10 @@
+{
+  "l1_train_v8.py": {
+    "path": "../model_v8_out/l1_train_v8.py",
+    "sha256": "6b7015179577060a0904b71e2f067f60c69df9f8e8a0427f634869a742e97c79"
+  },
+  "l1_train_v9.py": {
+    "path": "../model_v9_out/l1_train_v9.py",
+    "sha256": "692cbf318708343e1130b9804e7b3e9779462e31cc13257252ce58dd01770533"
+  }
+}
